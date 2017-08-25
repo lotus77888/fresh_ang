@@ -82,14 +82,14 @@
                     Laravel
                 </div>
 
-                <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                <div ng-app="">
+                  <p>Name: <input type="text" ng-model="name"></p>
+                  <p ng-bind="name"></p>
                 </div>
             </div>
         </div>
+
+
+         <script type="text/javascript" src="vendors/angular/js/angular.min.js"></script>
     </body>
 </html>
